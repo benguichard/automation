@@ -1,4 +1,4 @@
-# Wordpress AWS AMI
+# Wordpress AWS AMI - Ubuntu 16.04 LTS
 
 ![wordpress](../../../wordpress/wordpress-logo.svg)
 
