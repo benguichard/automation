@@ -1,6 +1,6 @@
 # Wordpress AWS AMI - Ubuntu 16.04 LTS
 
-![wordpress](../../../wordpress/wordpress-logo.svg)
+![wordpress](https://rawgit.com/benguichard/automation/dev/wordpress/wordpress-logo.svg)
 
 ## VM
 
