@@ -4,6 +4,8 @@ variable "stack_name" {
   default = "wordpress"
 }
 
+variable "key_name" {}
+
 # AWS
 
 variable "aws_region" {}
@@ -24,4 +26,17 @@ variable "private_networks" {
 
 variable "trusted_networks" {
   default = "0.0.0.0/0"
+}
+
+# Bastion AMIs
+variable "bastion_ami" {
+  default = {
+    # Ubuntu 16.04 LTS
+    eu-west-1 = "ami-b1cf19c6"
+    eu-west-2 = "ami-f1d7c395"
+  }
+}
+
+variable "bastion_type" {
+  default = "t2.micro"
 }
