@@ -5,5 +5,6 @@
 # Module directory
 .terraform/
 
+# Variables configuration files
 *.tfvars
 !*-sample.tfvars
