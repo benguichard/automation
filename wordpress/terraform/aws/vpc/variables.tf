@@ -1,14 +1,17 @@
 # Global
 
-variable "stack_name" {
-  default = "wordpress"
+variable "aws_region" {
+  description = "AWS region to launch servers."
 }
 
-variable "key_name" {}
+variable "key_name" {
+  description = "Name of the SSH keypair to use in AWS."
+}
 
-# AWS
-
-variable "aws_region" {}
+variable "stack_name" {
+  description = "Wordpress stack default name."
+  default     = "wordpress"
+}
 
 # Networks
 
@@ -29,6 +32,7 @@ variable "trusted_networks" {
 }
 
 # Bastion AMIs
+
 variable "bastion_ami" {
   default = {
     # Ubuntu 16.04 LTS
